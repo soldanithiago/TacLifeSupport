@@ -45,3 +45,4 @@ Includes contributions from (in alphabetical order):
 - Ninenium
 - NoMrBond
 - Olympic1 (Arne Peirs)
+- WaylandSmith
