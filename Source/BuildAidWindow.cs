@@ -29,6 +29,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using KSP.UI;
 
 namespace Tac
 {
@@ -232,7 +233,7 @@ namespace Tac
                     }
                 }
 
-                CMAssignmentDialog dialog = CMAssignmentDialog.Instance;
+                CrewAssignmentDialog dialog = CrewAssignmentDialog.Instance;
                 if (dialog != null)
                 {
                     VesselCrewManifest manifest = dialog.GetManifest();

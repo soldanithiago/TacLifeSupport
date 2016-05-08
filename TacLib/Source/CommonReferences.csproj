@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{063FB93C-D39B-4031-B4CF-B47C84EAEDCC}</ProjectGuid>
+    <ProjectGuid>{BDA6BE2A-FB8E-4E71-8BD7-17AD0D4FA71B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tac</RootNamespace>
-    <AssemblyName>TacLifeSupport</AssemblyName>
+    <AssemblyName>CommonReferences</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -36,56 +36,40 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AddLifeSupport.cs" />
-    <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="BuildAidWindow.cs" />
-    <Compile Include="CrewMemberInfo.cs" />
-    <Compile Include="EditorController.cs" />
-    <Compile Include="EngineersReportLifeSupportTests.cs" />
-    <Compile Include="GameSettings.cs" />
-    <Compile Include="GlobalSettings.cs" />
-    <Compile Include="InstallChecker.cs" />
-    <Compile Include="LifeSupportController.cs" />
-    <Compile Include="LifeSupportModule.cs" />
-    <Compile Include="LifeSupportMonitoringWindow.cs" />
-    <Compile Include="RosterWindow.cs" />
-    <Compile Include="SavedGameConfigWindow.cs" />
-    <Compile Include="SpaceCenterManager.cs" />
-    <Compile Include="TacGenericConverter.cs" />
-    <Compile Include="TacLifeSupport.cs" />
-    <Compile Include="VesselInfo.cs" />
+    <Compile Include="ButtonWrapper.cs" />
+    <Compile Include="Icon.cs" />
+    <Compile Include="Logging.cs" />
+    <Compile Include="PartExtensions.cs" />
+    <Compile Include="PopupWindow.cs" />
+    <Compile Include="ToolbarButton.cs" />
+    <Compile Include="ToolbarWrapper.cs" />
+    <Compile Include="Utilities.cs" />
+    <Compile Include="Window.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\BuildLibs\Assembly-CSharp.dll</HintPath>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\BuildLibs\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\BuildLibs\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>..\..\BuildLibs\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="KSPAssets">
-      <HintPath>..\BuildLibs\KSPAssets.dll</HintPath>
+      <HintPath>..\..\BuildLibs\KSPAssets.dll</HintPath>
     </Reference>
     <Reference Include="KSPUtil">
-      <HintPath>..\BuildLibs\KSPUtil.dll</HintPath>
+      <HintPath>..\..\BuildLibs\KSPUtil.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\BuildLibs\UnityEngine.dll</HintPath>
+      <HintPath>..\..\BuildLibs\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\BuildLibs\UnityEngine.UI.dll</HintPath>
+      <HintPath>..\..\BuildLibs\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Vectrosity">
-      <HintPath>..\BuildLibs\Vectrosity.dll</HintPath>
+      <HintPath>..\..\BuildLibs\Vectrosity.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TacLib\Source\CommonReferences.csproj">
-      <Project>{bda6be2a-fb8e-4e71-8bd7-17ad0d4fa71b}</Project>
-      <Name>CommonReferences</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
