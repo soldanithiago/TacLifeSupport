@@ -1,3 +1,8 @@
+V0.16.0
+	Re-compile for KSP 1.10.x.
+	Background resources can now track any mod part that uses stock resource converters to generate EC. This can be turned on via the Difficulty Settings (off by default).
+	Fixed potential null reference errors on solar banels in background resources if the solar panel is missing transform definitions.
+	Removed "Vessel situation change" log spam.	
 V0.15.0
 	Fix potential NRE when applying game settings changes.
 	Remove Mini AVC plugin.
