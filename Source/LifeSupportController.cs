@@ -2005,7 +2005,7 @@ namespace Tac
 
         private void onVesselSituationChange(GameEvents.HostedFromToAction<Vessel, Vessel.Situations> evt)
         {
-            this.Log("Vessel situation change");
+            //this.Log("Vessel situation change");
         }
 
         #endregion
