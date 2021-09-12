@@ -1,3 +1,8 @@
+V0.18.0
+	Re-compile for KSP 1.12.x.
+	Fix background resources - Kopernicus solar panels integration.
+	Fix background resources - NRE spam on Resource Converters.
+	Fix a NRE log spam on EVA kerbals - usually this involves rescue kerbals.
 V0.17.0
 	Re-compile for KSP 1.11.x.
 	Fix Kopernicus Solar Panel background processing.

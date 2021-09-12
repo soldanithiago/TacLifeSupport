@@ -1351,6 +1351,10 @@ namespace Tac
         /// <returns></returns>
         private double CalculateElectricityConsumptionRate(Vessel vessel, VesselInfo vesselInfo)
         {
+            if (vessel == null || vesselInfo == null)
+            {
+                return 0d;
+            }
             if (!vessel.isEVA)
             {
                 if (vesselInfo.numCrew == 0)
@@ -1376,7 +1380,7 @@ namespace Tac
         private double ConsumeEVALightEC(Vessel vessel)
         {
             double returnAmount = 0;
-            if (vessel.isEVA && vessel.loaded)
+            if (vessel != null && vessel.isEVA && vessel.loaded)
             {
                 KerbalEVA kerbalEVA = vessel.FindPartModuleImplementing<KerbalEVA>();
                 if (kerbalEVA != null)

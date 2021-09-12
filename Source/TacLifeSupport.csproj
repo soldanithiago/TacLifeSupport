@@ -134,7 +134,7 @@
   <Import Project="$(PROGRAMFILES)\MSBuild\ExtensionPack\4.0\MSBuild.ExtensionPack.tasks" Condition="Exists('$(PROGRAMFILES)\MSBuild\ExtensionPack\4.0\MSBuild.ExtensionPack.tasks')" />
   <PropertyGroup>
     <AssemblyMajorVersion>0</AssemblyMajorVersion>
-    <AssemblyMinorVersion>17</AssemblyMinorVersion>
+    <AssemblyMinorVersion>18</AssemblyMinorVersion>
     <AssemblyBuildNumber>0</AssemblyBuildNumber>
     <AssemblyFileMajorVersion>$(AssemblyMajorVersion)</AssemblyFileMajorVersion>
     <AssemblyFileMinorVersion>$(AssemblyMinorVersion)</AssemblyFileMinorVersion>
@@ -153,13 +153,13 @@
     <DownloadUrl>https://github.com/KSP-RO/TacLifeSupport/releases</DownloadUrl>
     <ChangelogUrl>https://github.com/KSP-RO/TacLifeSupport/wiki/Changes</ChangelogUrl>
     <KspVersionMajor>1</KspVersionMajor>
-    <KspVersionMinor>11</KspVersionMinor>
+    <KspVersionMinor>12</KspVersionMinor>
     <KspVersionPatch>0</KspVersionPatch>
     <KspMinVersionMajor>1</KspMinVersionMajor>
-    <KspMinVersionMinor>11</KspMinVersionMinor>
+    <KspMinVersionMinor>12</KspMinVersionMinor>
     <KspMinVersionPatch>0</KspMinVersionPatch>
     <KspMaxVersionMajor>1</KspMaxVersionMajor>
-    <KspMaxVersionMinor>11</KspMaxVersionMinor>
+    <KspMaxVersionMinor>12</KspMaxVersionMinor>
     <KspMaxVersionPatch>99</KspMaxVersionPatch>
   </PropertyGroup>
   <Target Name="GitInfo">
