@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 TacLifeSupport
 ==============
 
@@ -60,7 +59,7 @@ REPOSoftTech Utilities
 
 This is a collection of common software utilities used throughout my Kerbal Space Program mods.
 
-
+Source code for Background resources and other utilities that this mod uses can be found here: https://github.com/JPLRepo/REPOSoftTechKSPUtils
 For support please refer to the KSP forum thread and raise an issue here on GitHub.
 
 License
@@ -71,4 +70,4 @@ Mod Contributors:
 ===========
 JPLRepo - Plugin design and development, C# coding, Implementation and releases.    
 
->>>>>>> d4d76b8ce1de19e4579f2547766a1503c735d086
+
